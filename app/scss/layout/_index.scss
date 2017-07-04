@@ -1,0 +1,56 @@
+body {
+    padding-top: 50px;
+}
+
+.main-title, .add-Ctc {
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.main-title {
+    font-size: 35px;
+}
+
+.add-Ctc {
+    color: $main-color;
+    font-size: 1.5rem;
+    float: right;
+    margin-top: 30px;
+}
+
+.add-Ctc:hover {
+    text-decoration: underline;
+    color: $main-color;
+}
+
+.contacto {
+    margin-top: -0px;
+}
+
+.correo, .celular {
+    display: inline;
+    color: rgb(182, 182, 182);
+    font-size: 1.5rem;
+    padding-right: 50px;
+}
+
+a.list-group-item{
+    padding-bottom: 15px;
+}
+
+a.list-group-item:hover {
+    background-color: $main-color;
+    color: white;
+}
+
+a.list-group-item:hover .contacto {
+    color: white;
+}
+
+a.list-group-item:hover .correo {
+    color: white;
+}
+
+a.list-group-item:hover .celular {
+    color: white;
+}

@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="header">
+            <h1 class="main-title">Lista de contactos</h1>
+            <a  href="#!crearctc" class="add-Ctc"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Nuevo contacto</a>
+        </div>
+        
+        <div class="list-group">
+            <a ng-href="#!detallesctc/{{contacts.indexOf(contact)}}" class="list-group-item" ng-repeat="contact in contacts">
+                <h2 class="contacto">{{contact.nombre}}</h2>
+                <p class="correo"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> {{contact.correo}}</p>
+                <p class="celular"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> {{contact.telefono}}</p>
+            </a>
+        </div>
+    </div>    
+</div>
+
+
+
+
+
+

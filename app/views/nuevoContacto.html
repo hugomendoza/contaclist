@@ -1,0 +1,35 @@
+
+    <div class="container">
+        <div class="col-md-6 col-md-offset-3">
+            <h1>Nuevo Contacto</h1>
+            <form name="form" ng-submit="form.$valid && addContact()" novalidate>
+                <div class="form-group" ng-class="{ 'has-error': form.name.$invalid && (form.name.$touched || form.$submitted) }">
+                    <label class="control-label" for="name">Nombre</label>
+                    <input type="name" class="form-control" id="name" name="name" ng-model="newcontact.nombre" required>
+                    <p class="help-block" ng-show="form.name.$error.required && (form.name.$touched || form.$submitted)">Ingresa un usuario</p>
+                </div>
+                <div class="form-group" ng-class="{ 'has-error': form.email.$invalid && (form.email.$touched || form.$submitted) }">
+                    <label class="control-label" for="email">Correo</label>
+                    <input type="email" class="form-control" id="email" name="email" ng-model="newcontact.correo" required>
+                    <p class="help-block" ng-show="form.email.$error.required && (form.email.$touched || form.$submitted)">Ingresa un correo válido</p>
+                </div>
+                <div class="form-group" ng-class="{ 'has-error': form.number.$invalid && (form.number.$touched || form.$submitted) }">
+                    <label class="control-label" for="number">Teléfono</label>
+                    <input type="text" class="form-control" id="number" name="number" ng-model="newcontact.telefono" required>
+                    <p class="help-block" ng-show="form.number.$error.required && (form.number.$touched || form.$submitted)">Ingresa un número válido</p>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="text">Notas</label>
+                    <textarea class="form-control" rows="5" id="notes" ng-model="newcontact.notas" placeholder="Agrega descripción..."></textarea>
+                </div>
+                <div class="pull-right">
+                    <button class="btn-return" type="submit" name="button"><a href="/">Volver</a></button>
+                    <button class="btn-save" type="submit" name="button" ng-click="submitted=true">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    
+
+

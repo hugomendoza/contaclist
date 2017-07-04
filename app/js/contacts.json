@@ -1,0 +1,16 @@
+{"contacts":[  
+    {
+     "nombre": "Alejandro Cardoso",
+     "correo": "alejo.cardo@mgmail.com",
+     "telefono": "325 465 3131",
+     "notas": "Amigo del trabajo"
+    },
+
+    {
+    "nombre": "Juan Penas",
+    "correo": "juan.penas@mgmail.com",
+    "telefono": "352 498 3365",
+    "notas": "Amigo del trabajo"
+    }  
+]}  
+

@@ -1,0 +1,45 @@
+label {
+    font: 1.5rem $headlines;
+}
+
+.btn-return, .btn-save {
+    padding: 5px 5px;
+    font: 1.2rem $main-text;
+    background-color: $main-color;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border: none;
+    text-align: right;
+}
+
+.btn-return:hover {
+    background-color: rgb(255, 255, 255);
+    color: $main-color;
+    text-decoration: underline;
+}
+
+.btn-save:hover {
+    background-color: rgb(255, 255, 255);
+    color: $main-color;
+    text-decoration: underline;
+}
+
+.btn-save a {
+    color: rgb(255, 255, 255);
+}
+
+.btn-save a:hover {
+    background-color: rgb(255, 255, 255);
+    color: $main-color;
+    text-decoration: underline;
+}
+
+.btn-return a {
+    color: rgb(255, 255, 255);
+}
+
+.btn-return a:hover {
+    background-color: rgb(255, 255, 255);
+    color: $main-color;
+    text-decoration: underline;
+}

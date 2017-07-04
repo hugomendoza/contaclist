@@ -1,0 +1,51 @@
+hr {
+    border-color: $main-color;
+}
+
+.tlt-notes {
+    font: 2rem $headlines;
+}
+
+.prh-notes {
+    font-size: 1.5rem;
+}
+
+.lk-return {
+    color: $main-color;
+    font-size: 1.5rem;
+}
+
+.lk-return:hover {
+    color: $main-color;
+    text-decoration: underline;
+}
+
+.btn-edit, .btn-delete {
+    padding: 5px 5px;
+    font: 1.2rem $headlines;
+    background-color: $main-color;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border: none;
+    text-align: right;
+}
+
+.btn-edit:hover {
+    background-color: rgb(255, 255, 255);
+    color: $main-color;
+    text-decoration: underline;
+}
+
+.btn-delete:hover {
+    background-color: rgb(255, 255, 255);
+    color: $main-color;
+    text-decoration: underline;
+}
+
+.correo {
+    font-size: 13.5px;
+}
+
+.celular {
+    font-size: 13.5px;
+}

@@ -1,0 +1,215 @@
+/* line 1, app/scss/base/_tipografia.scss */
+body {
+  font: 100% "Poppins-Regular", "Helvetica", "Arial", sans-serif;
+}
+
+/* line 5, app/scss/base/_tipografia.scss */
+h2 {
+  font: 2.5rem "Poppins-Bold", "Helvetica", "Arial", sans-serif;
+  color: #00b288;
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url("../fonts/Poppins/original_Poppins-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/original_Poppins-Bold.woff") format("woff"), url("../fonts/Poppins/original_Poppins-Bold.ttf") format("truetype"), url("../fonts/Poppins/original_Poppins-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url("../fonts/Poppins/original_Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/original_Poppins-Regular.woff") format("woff"), url("../fonts/Poppins/original_Poppins-Regular.ttf") format("truetype"), url("../fonts/Poppins/original_Poppins-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, app/scss/layout/_index.scss */
+body {
+  padding-top: 50px;
+}
+
+/* line 5, app/scss/layout/_index.scss */
+.main-title, .add-Ctc {
+  display: inline-block;
+  padding-bottom: 30px;
+}
+
+/* line 10, app/scss/layout/_index.scss */
+.main-title {
+  font-size: 35px;
+}
+
+/* line 14, app/scss/layout/_index.scss */
+.add-Ctc {
+  color: #00b288;
+  font-size: 1.5rem;
+  float: right;
+  margin-top: 30px;
+}
+
+/* line 21, app/scss/layout/_index.scss */
+.add-Ctc:hover {
+  text-decoration: underline;
+  color: #00b288;
+}
+
+/* line 26, app/scss/layout/_index.scss */
+.contacto {
+  margin-top: -0px;
+}
+
+/* line 30, app/scss/layout/_index.scss */
+.correo, .celular {
+  display: inline;
+  color: #b6b6b6;
+  font-size: 1.5rem;
+  padding-right: 50px;
+}
+
+/* line 37, app/scss/layout/_index.scss */
+a.list-group-item {
+  padding-bottom: 15px;
+}
+
+/* line 41, app/scss/layout/_index.scss */
+a.list-group-item:hover {
+  background-color: #00b288;
+  color: white;
+}
+
+/* line 46, app/scss/layout/_index.scss */
+a.list-group-item:hover .contacto {
+  color: white;
+}
+
+/* line 50, app/scss/layout/_index.scss */
+a.list-group-item:hover .correo {
+  color: white;
+}
+
+/* line 54, app/scss/layout/_index.scss */
+a.list-group-item:hover .celular {
+  color: white;
+}
+
+/* line 1, app/scss/layout/_detalles.scss */
+hr {
+  border-color: #00b288;
+}
+
+/* line 5, app/scss/layout/_detalles.scss */
+.tlt-notes {
+  font: 2rem "Poppins-Bold", "Helvetica", "Arial", sans-serif;
+}
+
+/* line 9, app/scss/layout/_detalles.scss */
+.prh-notes {
+  font-size: 1.5rem;
+}
+
+/* line 13, app/scss/layout/_detalles.scss */
+.lk-return {
+  color: #00b288;
+  font-size: 1.5rem;
+}
+
+/* line 18, app/scss/layout/_detalles.scss */
+.lk-return:hover {
+  color: #00b288;
+  text-decoration: underline;
+}
+
+/* line 23, app/scss/layout/_detalles.scss */
+.btn-edit, .btn-delete {
+  padding: 5px 5px;
+  font: 1.2rem "Poppins-Bold", "Helvetica", "Arial", sans-serif;
+  background-color: #00b288;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  text-align: right;
+}
+
+/* line 33, app/scss/layout/_detalles.scss */
+.btn-edit:hover {
+  background-color: white;
+  color: #00b288;
+  text-decoration: underline;
+}
+
+/* line 39, app/scss/layout/_detalles.scss */
+.btn-delete:hover {
+  background-color: white;
+  color: #00b288;
+  text-decoration: underline;
+}
+
+/* line 45, app/scss/layout/_detalles.scss */
+.correo {
+  font-size: 13.5px;
+}
+
+/* line 49, app/scss/layout/_detalles.scss */
+.celular {
+  font-size: 13.5px;
+}
+
+/* line 1, app/scss/layout/_editar.scss */
+label {
+  font: 1.5rem "Poppins-Bold", "Helvetica", "Arial", sans-serif;
+}
+
+/* line 5, app/scss/layout/_editar.scss */
+.btn-return, .btn-save {
+  padding: 5px 5px;
+  font: 1.2rem "Poppins-Regular", "Helvetica", "Arial", sans-serif;
+  background-color: #00b288;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  text-align: right;
+}
+
+/* line 15, app/scss/layout/_editar.scss */
+.btn-return:hover {
+  background-color: white;
+  color: #00b288;
+  text-decoration: underline;
+}
+
+/* line 21, app/scss/layout/_editar.scss */
+.btn-save:hover {
+  background-color: white;
+  color: #00b288;
+  text-decoration: underline;
+}
+
+/* line 27, app/scss/layout/_editar.scss */
+.btn-save a {
+  color: white;
+}
+
+/* line 31, app/scss/layout/_editar.scss */
+.btn-save a:hover {
+  background-color: white;
+  color: #00b288;
+  text-decoration: underline;
+}
+
+/* line 37, app/scss/layout/_editar.scss */
+.btn-return a {
+  color: white;
+}
+
+/* line 41, app/scss/layout/_editar.scss */
+.btn-return a:hover {
+  background-color: white;
+  color: #00b288;
+  text-decoration: underline;
+}
+
+/* line 1, app/scss/layout/_adicionar.scss */
+.help-block {
+  font-size: 14px;
+  font-weight: bold;
+}
