@@ -20,7 +20,6 @@
     "gulp-webserver": "^0.9.1"
   },
   "dependencies": {
-    "browser-sync": "^2.18.12",
-    "semantic-ui": "^2.2.10"
+    "browser-sync": "^2.18.12"
   }
 }
