@@ -33,13 +33,13 @@ gulp.task('sass', function() {
 gulp.task('default', function () {
     browserSync.init({
         server: {
-            baseDir: "app"
+            baseDir: "./"
         },
         port: 8080,
         ws: true
     });
     gulp.watch('app/scss/**/*.scss', ['sass']);
-    gulp.watch('app/*.html').on('change', browserSync.reload)
+    gulp.watch('*.html').on('change', browserSync.reload)
     gulp.watch('app/views/*html').on('change', browserSync.reload)
     gulp.watch('app/css/*.css').on('change', browserSync.reload)
     gulp.watch('app/js/*.js').on('change', browserSync.reload)

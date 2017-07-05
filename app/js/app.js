@@ -5,22 +5,22 @@ app.config(function($routeProvider, $locationProvider){
     $routeProvider
     
     .when('/', {
-        templateUrl: 'views/prueba.html',
+        templateUrl: 'app/views/prueba.html',
         controller: 'contactCtrl'
     })
     
     .when('/crearctc', {
-        templateUrl: 'views/nuevoContacto.html',
+        templateUrl: 'app/views/nuevoContacto.html',
         controller: 'contactCtrl'
     })
     
         .when('/detallesctc/:contact_index', {
-        templateUrl: 'views/detallesContacto.html',
+        templateUrl: 'app/views/detallesContacto.html',
         controller: 'infoContact'
     })
     
         .when('/editarctc/:contact_index', {
-        templateUrl: 'views/editarContacto.html',
+        templateUrl: 'app/views/editarContacto.html',
         controller: 'editContact'
     })
     
